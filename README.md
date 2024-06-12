@@ -1,4 +1,4 @@
-# Chatbot with Schedule Management
+# Chatbot with Schedule Management Bahasa Indonesia
 
 This project builds a chatbot that can understand user queries and respond accordingly. It integrates a schedule management feature, allowing users to add, update, delete, and view upcoming events.
 

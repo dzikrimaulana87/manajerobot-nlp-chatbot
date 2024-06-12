@@ -1,0 +1,680 @@
+{
+    "intents": [
+        {
+            "tag": "salam",
+            "patterns": [
+                "Hai di sana",
+                "Apakah ada orang di sana?",
+                "Hei",
+                "Hola",
+                "Halo",
+                "Selamat siang",
+                "Namaste",
+                "yo",
+                "Apa kabar?",
+                "Hai, apa kabar?",
+                "Halo semuanya",
+                "Hi, bagaimana harimu?"
+            ],
+            "responses": [
+                "Halo!",
+                "Senang bertemu denganmu",
+                "Halo di sana, ada yang bisa kubantu?",
+                "Hai! Bagaimana kabarmu hari ini?",
+                "Halo! Ada yang bisa saya bantu?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "apa kabar",
+            "patterns": [
+                "Apa kabar?",
+                "Wazzup",
+                "Bagaimana kabarmu?",
+                "Sup",
+                "Bagaimana kamu?",
+                "Apa kabar hari ini?",
+                "Gimana kabarnya?",
+                "Kabar baik?",
+                "Kamu apa kabar?",
+                "Bagaimana keadaanmu?",
+                "Gimana hari ini?"
+            ],
+            "responses": [
+                "Semua baik-baik saja.. Bagaimana dengan kamu?",
+                "Saya baik, bagaimana dengan kamu?",
+                "Saya baik-baik saja, bagaimana dengan kamu?",
+                "Kabar saya baik, terima kasih sudah bertanya. Bagaimana dengan kamu?",
+                "Saya baik-baik saja, terima kasih. Bagaimana kabarmu?",
+                "Saya baik, bagaimana keadaanmu?",
+                "Kabar baik, terima kasih! Bagaimana denganmu?"
+            ]
+        },
+        {
+            "tag": "Selamat Tinggal",
+            "patterns": [
+                "Sampai jumpa",
+                "Sampai nanti",
+                "Selamat tinggal",
+                "Pergilah",
+                "Sampai waktu berikutnya",
+                "Dadah",
+                "Bye bye",
+                "Sampai ketemu lagi"
+            ],
+            "responses": [
+                "Sampai jumpa!",
+                "Semoga harimu menyenangkan",
+                "Sampai jumpa! Datang kembali lagi segera.",
+                "Bye! Semoga harimu menyenangkan!",
+                "Selamat tinggal! Jangan lupa kembali lagi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "terima kasih",
+            "patterns": [
+                "Terima kasih",
+                "Makasih",
+                "Itu membantu",
+                "Hebat, terima kasih",
+                "Terima kasih telah membantu saya",
+                "Terima kasih banyak",
+                "Makasih ya",
+                "Saya sangat berterima kasih"
+            ],
+            "responses": [
+                "Senang membantu!",
+                "Kapan saja!",
+                "Dengan senang hati",
+                "Sama-sama!",
+                "Tidak masalah, senang membantu!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tidak ada jawaban",
+            "patterns": [],
+            "responses": [
+                "Maaf, saya tidak bisa mengerti kamu",
+                "Tolong beri saya informasi lebih",
+                "Tidak yakin saya mengerti",
+                "Bisa ulangi lagi?",
+                "Saya kurang paham, bisa beri detail lebih?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "opsi",
+            "patterns": [
+                "Bagaimana kamu bisa membantuku?",
+                "Apa yang bisa kamu lakukan?",
+                "Bantuan apa yang kamu berikan?",
+                "Bagaimana kamu bisa berguna?",
+                "Dukungan apa yang ditawarkan?",
+                "Apa yang bisa kamu lakukan untukku?",
+                "Bagaimana caramu membantuku?",
+                "Layanan apa yang kamu sediakan?"
+            ],
+            "responses": [
+                "Saya adalah chatbot serba guna. Kemampuan saya adalah: \n 1. Saya bisa ngobrol denganmu. \n 2. Cobalah minta saya untuk bercanda atau teka-teki! \n 3. Tanyakan saya tanggal dan waktu \n 4. Membantumu menyusun atau mengatur jadwal kegiatanmu",
+                "Saya bisa membantu dengan banyak hal, seperti ngobrol, memberikan teka-teki, memberi informasi waktu, dan membantu mengatur jadwal kegiatanmu.",
+                "Kemampuan saya antara lain: ngobrol, memberikan hiburan, memberi informasi tanggal dan waktu, serta membantu mengatur jadwal kegiatanmu.",
+                "Saya dapat membantumu dengan berbagai hal: dari ngobrol hingga membantu mengatur jadwal harianmu."
+            ]
+        },
+        {
+            "tag": "lelucon",
+            "patterns": [
+                "Ceritakan lelucon",
+                "Lelucon",
+                "Buat saya tertawa",
+                "Beri saya lelucon",
+                "Bisa cerita lelucon?",
+                "Katakan sesuatu yang lucu",
+                "Saya ingin tertawa",
+                "Coba buat saya tertawa",
+                "Ada lelucon lucu?"
+            ],
+            "responses": [
+                "Apa yang lebih besar dari paus biru?, dua paus biru",
+                "Kenapa sepeda punya banyak teman? karena dia 'Bike'",
+                "Apa yang selalu naik dan tidak pernah turun? Umur kamu!",
+                "Mengapa kucing suka duduk di komputer? Karena ingin menjaga mouse!",
+                "Kenapa buku matematika selalu merasa sedih? Karena penuh dengan masalah.",
+                "Mengapa gajah tidak pernah bisa bersembunyi di pohon? Karena mereka terlalu besar dan kita selalu bisa melihat mereka!",
+                "Apa yang lebih berat, satu kilogram kapas atau satu kilogram besi? Sama-sama satu kilogram!",
+                "Kenapa ayam menyeberang jalan? Untuk mencapai sisi lain!",
+                "Apa yang lebih lucu dari 24? 25 ^_^",
+                "Mengapa komputer pergi ke dokter? Karena punya virus!"
+            ],
+            "context": [
+                "lelucon"
+            ]
+        },
+        {
+            "tag": "Identitas",
+            "patterns": [
+                "Siapa kamu?",
+                "Siapa namamu?",
+                "Kamu itu siapa?",
+                "Nama kamu siapa?"
+            ],
+            "responses": [
+                "Saya adalah Manajerobot",
+                "Nama saya Manajerobot, saya adalah chatbot yang dibuat menggunakan teknologi Deep-Learning.",
+                "Saya Manajerobot, sebuah chatbot yang dirancang untuk membantu Anda dengan berbagai pertanyaan.",
+                "Saya Manajerobot, chatbot pintar yang siap membantu Anda mangatur jadwal kegiaan."
+            ]
+        },
+        {
+            "tag": "tanggal dan waktu",
+            "patterns": [
+                "Jam berapa sekarang?",
+                "Tanggal berapa sekarang?",
+                "Apa tanggal hari ini?",
+                "Berapa waktu sekarang?",
+                "Beri tahu saya tanggal hari ini",
+                "Hari apa hari ini?",
+                "Sekarang hari apa?",
+                "Bisa beri tahu waktu sekarang?",
+                "Tolong beri tahu tanggal dan waktu",
+                "Pukul berapa sekarang?",
+                "Tolong beri tahu saya tanggal saat ini"
+            ],
+            "responses": [
+                "~time"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "itu lucu",
+                "Saya tertawa",
+                "kocak",
+                "bikin ngakak",
+                "Ngakak",
+                "Ketawa terus",
+                "Itu kocak banget"
+            ],
+            "responses": [
+                "Senang bisa membuatmu tertawa!",
+                "Haha, senang bisa menghibur!",
+                "Saya senang bisa membuatmu tertawa!",
+                "Terima kasih! Saya senang kamu menikmatinya!",
+                "Hahaha, itu membuat hariku! Senang kamu suka!",
+                "Saya senang bisa menghiburmu!",
+                "Itu lucu, kan? Senang bisa membuatmu tertawa!"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Oleh siapa kamu dibuat?",
+                "Oleh siapa kamu didesain?",
+                "Oleh siapa kamu diprogram?",
+                "Oleh siapa kamu dikembangkan?",
+                "Siapa pembuatmu?"
+            ],
+            "responses": [
+                "Malik dan Dzikri adalah orang yang mengembangkan saya.",
+                "Malik yang membuat korpus, kemudian dzikri yang merancang dan membuat model saya."
+            ]
+        },
+        {
+            "tag": "aktivitas",
+            "patterns": [
+                "apa yang kamu lakukan",
+                "apa yang kamu kerjakan",
+                "lagi apa?"
+            ],
+            "responses": [
+                "Tentu saja, berbicara denganmu!"
+            ]
+        },
+        {
+            "tag": "seru",
+            "patterns": [
+                "Hebat",
+                "Bagus",
+                "Saya tahu",
+                "oke",
+                "ya",
+                "keren",
+                "luar biasa",
+                "fantastis"
+            ],
+            "responses": [
+                "Ya!",
+                "Terima kasih!",
+                "Anda juga luar biasa!",
+                "Bagus sekali!"
+            ]
+        },
+        {
+            "tag": "cuaca",
+            "patterns": [
+                "suhu",
+                "cuaca",
+                "seberapa panas",
+                "hari ini cuaca bagaimana?",
+                "berapa derajat hari ini?",
+                "panasnya hari ini"
+            ],
+            "responses": [
+                "Berikut adalah data suhu . . ."
+            ]
+        },
+        {
+            "tag": "apresiasi",
+            "patterns": [
+                "Kamu hebat",
+                "kamu yang terbaik",
+                "kamu luar biasa",
+                "kamu baik",
+                "sangat menghargai kamu"
+            ],
+            "responses": [
+                "Terima kasih!"
+            ]
+        },
+        {
+            "tag": "pembicaraan menyenangkan",
+            "patterns": [
+                "senang berbicara denganmu",
+                "pembicaraan yang baik",
+                "aku menikmati obrolan kita",
+                "ngobrol denganmu seru"
+            ],
+            "responses": [
+                "Saya juga senang berbicara denganmu! Kembali lagi segera!"
+            ]
+        },
+        {
+            "tag": "tidak",
+            "patterns": [
+                "tidak",
+                "nggak",
+                "bukan",
+                "jangan"
+            ],
+            "responses": [
+                "ok",
+                "Baiklah",
+                "Paham"
+            ]
+        },
+        {
+            "tag": "balas sapa",
+            "patterns": [
+                "saya baik-baik saja",
+                "saya baik",
+                "saya sehat",
+                "baik",
+                "kondisi saya bagus",
+                "aku oke"
+            ],
+            "responses": [
+                "Senang mendengarnya!"
+            ]
+        },
+        {
+            "tag": "pengatur waktu",
+            "patterns": [
+                "atur timer",
+                "timer",
+                "set alarm",
+                "pemberitahuan waktu"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "umur",
+            "patterns": [
+                "berapa umurmu",
+                "kapan kamu dibuat",
+                "berapa usiamu"
+            ],
+            "responses": [
+                "Saya dibuat pada tahun 2024, jika itu yang kamu tanyakan!"
+            ]
+        },
+        {
+            "tag": "teka-teki",
+            "patterns": [
+                "Berikan aku teka-teki yang bikin penasaran!",
+                "Bisakah kamu menguji kemampuanku dengan teka-teki?",
+                "Punya teka-teki yang rumit untuk dipecahkan?",
+                "Coba tantang aku dengan teka-teki yang belum pernah aku dengar!",
+                "Ayo asah otak dengan teka-teki seru!"
+            ],
+            "responses": [
+                "Hewan apa yang paling pemalas? Jawaban: Koala, karena sehari-hari mereka hanya tidur selama 18-20 jam.",
+                "Benda apa yang selalu datang tapi tidak pernah pergi? Jawaban: Usia.",
+                "Kenapa ikan berenang di air asin? Jawaban: Karena kalau di air gula, nanti dia manisan.",
+                "Apa persamaan kupu-kupu dan tukang pos? Jawaban: Sama-sama suka kirim surat.",
+                "Kota apa yang paling ramai dikunjungi hantu? Jawaban: Kota Hantu.",
+                "Kenapa Superman pakai jubah merah? Jawaban: Kalau biru, nanti keliru sama Batman.",
+                "Binatang apa yang paling jahat? Jawaban: Nyamuk, karena dia selalu datang tanpa diundang dan membawa penyakit.",
+                "Kenapa bebek kalau nyebrang jalan selalu berkelompok? Jawaban: Karena kalau sendirian takut diklakson.",
+                "Apa bedanya orang gemuk dan orang kurus? Jawaban: Kalau orang gemuk makan dikit langsung kenyang, kalau orang kurus makan banyak tetap lapar.",
+                "Kenapa balon kalau ditiup terus meletus? Jawaban: Karena dia kesal disuruh kerja terus."
+            ],
+            "context": [
+                "teka-teki"
+            ]
+        },
+        {
+            "tag": "istirahat",
+            "patterns": [
+                "Kapan saya harus istirahat?",
+                "Bagaimana cara mengatur waktu istirahat?",
+                "Tolong bantu jadwalkan waktu istirahat saya",
+                "Saya butuh waktu istirahat, kapan waktu yang tepat?",
+                "Berapa lama saya harus beristirahat?"
+            ],
+            "responses": [
+                "Istirahat sangat penting! Sebaiknya kamu beristirahat setiap 1-2 jam selama 10-15 menit.",
+                "Untuk menjaga produktivitas, ambil istirahat pendek setiap satu jam kerja.",
+                "Idealnya, setelah 90 menit kerja fokus, kamu bisa beristirahat selama 10-15 menit.",
+                "Kamu bisa menjadwalkan waktu istirahat sesuai kebutuhan. Pastikan untuk beristirahat secara teratur.",
+                "Ingat, istirahat dapat meningkatkan produktivitas. Ambil jeda setiap satu jam sekali."
+            ]
+        },
+        {
+            "tag": "prioritas",
+            "patterns": [
+                "Bagaimana cara menentukan prioritas dalam jadwal?",
+                "Apa yang harus saya prioritaskan pertama kali?",
+                "Bagaimana cara mengatur jadwal untuk proyek dengan batas waktu?",
+                "Tolong bantu saya menetapkan prioritas dalam tugas.",
+                "Apa yang harus saya utamakan dalam jadwal saya?"
+            ],
+            "responses": [
+                "Menetapkan prioritas adalah kunci dalam mengatur jadwal. Pertimbangkan urgensi, pentingnya, dan batas waktu dari setiap tugas.",
+                "Mulailah dengan tugas yang paling mendesak dan penting. Apa yang perlu diselesaikan segera?",
+                "Untuk proyek dengan batas waktu, buatlah daftar tugas dan tentukan prioritas berdasarkan tenggat waktu.",
+                "Kita bisa menetapkan prioritas dengan mengevaluasi tugas berdasarkan urgensi dan pentingnya.",
+                "Untuk menentukan prioritas, fokuslah pada tugas yang akan memberikan dampak terbesar jika diselesaikan lebih dulu."
+            ]
+        },
+        {
+            "tag": "evaluasi kegiatan",
+            "patterns": [
+                "Bagaimana cara mengevaluasi kegiatan saya?",
+                "Apa yang harus saya periksa setelah menyelesaikan tugas?",
+                "Bagaimana cara mengevaluasi hasil kerja saya?",
+                "Apa cara terbaik untuk mengevaluasi kegiatan?"
+            ],
+            "responses": [
+                "Evaluasi kegiatan adalah langkah penting. Periksa apakah tujuan Anda tercapai dan identifikasi area untuk perbaikan.",
+                "Setelah menyelesaikan tugas, luangkan waktu untuk meninjau apa yang berjalan dengan baik dan apa yang bisa ditingkatkan.",
+                "Untuk mengevaluasi hasil kerja, bandingkan hasil aktual dengan tujuan yang telah ditetapkan dan analisis perbedaannya.",
+                "Evaluasi kegiatan secara berkala membantu memastikan Anda tetap berada di jalur yang benar dan mencapai tujuan Anda."
+            ]
+        },
+        {
+            "tag": "pengingat kegiatan",
+            "patterns": [
+                "Buatkan pengingat untuk saya",
+                "Saya butuh pengingat untuk tugas saya",
+                "Bagaimana cara mengatur pengingat?",
+                "Tolong ingatkan saya tentang jadwal saya"
+            ],
+            "responses": [
+                "Anda bisa menggunakan aplikasi pengingat atau kalender untuk mengatur pengingat tugas.",
+                "Pengingat bisa sangat membantu untuk memastikan Anda tidak melewatkan tugas penting.",
+                "Mari buat pengingat untuk tugas Anda. Apa yang perlu Anda ingatkan?",
+                "Saya sarankan menggunakan pengingat berbasis waktu atau lokasi untuk memastikan tugas Anda selesai tepat waktu."
+            ]
+        },
+        {
+            "tag": "produktivitas",
+            "patterns": [
+                "Bagaimana cara meningkatkan produktivitas saya?",
+                "Apa tips untuk tetap produktif?",
+                "Saya ingin menjadi lebih produktif, apa yang harus saya lakukan?",
+                "Bagaimana cara bekerja lebih efisien?"
+            ],
+            "responses": [
+                "Untuk meningkatkan produktivitas, fokuslah pada satu tugas pada satu waktu dan hindari multitasking.",
+                "Mengatur prioritas dan membuat daftar tugas harian dapat membantu meningkatkan produktivitas Anda.",
+                "Istirahat secara teratur dan menjaga keseimbangan antara kerja dan istirahat sangat penting untuk tetap produktif.",
+                "Cobalah teknik Pomodoro, di mana Anda bekerja selama 25 menit dan kemudian istirahat selama 5 menit."
+            ]
+        },
+        {
+            "tag": "motivasi",
+            "patterns": [
+                "Bagaimana cara tetap termotivasi?",
+                "Saya butuh motivasi untuk bekerja",
+                "Apa tips untuk tetap semangat?",
+                "Bagaimana cara mengatasi kurangnya motivasi?"
+            ],
+            "responses": [
+                "Tetapkan tujuan yang jelas dan realistis untuk menjaga motivasi.",
+                "Ingatlah mengapa Anda memulai tugas tersebut dan fokus pada hasil akhirnya.",
+                "Cobalah mencari sumber inspirasi, seperti membaca buku motivasi atau mendengarkan podcast inspiratif.",
+                "Beristirahatlah jika merasa lelah dan kembali bekerja dengan energi yang baru."
+            ]
+        },
+        {
+            "tag": "proyek",
+            "patterns": [
+                "Bagaimana cara mengatur proyek besar?",
+                "Saya butuh bantuan dengan manajemen proyek",
+                "Apa langkah pertama dalam memulai proyek?",
+                "Bagaimana cara mengelola proyek dengan banyak tugas?"
+            ],
+            "responses": [
+                "Mulailah dengan memecah proyek besar menjadi tugas-tugas yang lebih kecil dan kelola satu per satu.",
+                "Gunakan alat manajemen proyek seperti Trello atau Asana untuk mengatur dan melacak kemajuan proyek Anda.",
+                "Tetapkan tenggat waktu untuk setiap tugas dan pastikan untuk meninjau kemajuan secara berkala.",
+                "Komunikasi yang efektif dengan tim Anda sangat penting untuk keberhasilan proyek."
+            ]
+        },
+        {
+            "tag": "delegasi tugas",
+            "patterns": [
+                "Bagaimana cara mendelegasikan tugas?",
+                "Apa yang harus saya pertimbangkan saat mendelegasikan tugas?",
+                "Bagaimana cara membagi pekerjaan dengan tim?",
+                "Apa tips untuk mendelegasikan tugas secara efektif?"
+            ],
+            "responses": [
+                "Identifikasi tugas yang bisa didelegasikan dan pilih orang yang tepat untuk menangani tugas tersebut.",
+                "Pastikan untuk memberikan instruksi yang jelas dan menetapkan harapan yang realistis.",
+                "Delegasikan tugas berdasarkan keahlian dan beban kerja masing-masing anggota tim.",
+                "Percayakan tugas tersebut kepada tim Anda dan berikan dukungan yang diperlukan untuk menyelesaikan tugas."
+            ]
+        },
+        {
+            "tag": "pengaturan tujuan",
+            "patterns": [
+                "Bagaimana cara menetapkan tujuan yang efektif?",
+                "Apa tips untuk menetapkan tujuan?",
+                "Bagaimana cara mencapai tujuan saya?",
+                "Bagaimana cara menetapkan tujuan jangka panjang?"
+            ],
+            "responses": [
+                "Gunakan metode SMART (Specific, Measurable, Achievable, Relevant, Time-bound) untuk menetapkan tujuan yang efektif.",
+                "Tetapkan tujuan yang realistis dan dapat dicapai untuk menjaga motivasi dan fokus.",
+                "Buat rencana tindakan yang jelas dan langkah-langkah yang perlu diambil untuk mencapai tujuan Anda.",
+                "Evaluasi kemajuan Anda secara berkala dan sesuaikan tujuan Anda jika diperlukan."
+            ]
+        },
+        {
+            "tag": "balancing kegiatan",
+            "patterns": [
+                "Bagaimana cara menyeimbangkan pekerjaan dan kehidupan pribadi?",
+                "Apa tips untuk menjaga keseimbangan antara pekerjaan dan kehidupan pribadi?",
+                "Bagaimana cara mengatur waktu antara pekerjaan dan kegiatan lain?",
+                "Apa yang harus saya lakukan untuk menghindari kelelahan?"
+            ],
+            "responses": [
+                "Tetapkan batasan yang jelas antara waktu kerja dan waktu pribadi.",
+                "Pastikan untuk mengambil waktu istirahat dan menikmati kegiatan yang Anda nikmati di luar pekerjaan.",
+                "Prioritaskan kegiatan yang penting dan hindari membawa pekerjaan ke rumah jika memungkinkan.",
+                "Jaga kesehatan fisik dan mental Anda dengan tidur yang cukup, makan sehat, dan berolahraga secara teratur."
+            ]
+        },
+        {
+            "tag": "perubahan_jadwal",
+            "patterns": [
+                "Bagaimana cara menyesuaikan jadwal jika ada perubahan?",
+                "Apa yang harus saya lakukan jika ada perubahan rencana?",
+                "Bagaimana cara mengatur ulang jadwal saya?",
+                "Apa yang harus dilakukan jika ada perubahan mendadak?",
+                "Bagaimana cara fleksibel dengan jadwal saya?"
+            ],
+            "responses": [
+                "Jika ada perubahan, pertimbangkan kembali prioritas dan atur ulang jadwal sesuai kebutuhan baru.",
+                "Untuk menyesuaikan jadwal, identifikasi tugas mana yang bisa dipindahkan atau ditunda.",
+                "Fleksibilitas adalah kunci. Sesuaikan jadwal Anda dengan perubahan dan tetap fokus pada tugas utama.",
+                "Ketika ada perubahan mendadak, segera evaluasi jadwal dan sesuaikan prioritas sesuai situasi baru.",
+                "Menjadi fleksibel dengan jadwal berarti siap untuk menyesuaikan rencana tanpa kehilangan fokus pada tujuan utama."
+            ]
+        },
+        {
+            "tag": "konfirmasi",
+            "patterns": [
+                "Apakah ini jadwal yang baik untuk saya?",
+                "Apakah jadwal ini realistis?",
+                "Apakah ada yang perlu diubah dalam jadwal ini?",
+                "Bagaimana pendapatmu tentang jadwal saya?",
+                "Apakah jadwal ini sudah efektif?"
+            ],
+            "responses": [
+                "Jadwal tersebut mungkin cocok untuk Anda, namun pastikan untuk menyesuaikannya dengan kebutuhan dan kenyamanan Anda.",
+                "Sebuah jadwal yang realistis adalah yang mempertimbangkan waktu luang dan beban kerja yang seimbang.",
+                "Jika ada yang perlu diubah, pastikan untuk mempertimbangkan prioritas dan batas waktu Anda.",
+                "Jadwal Anda terlihat baik. Namun, selalu siap untuk melakukan penyesuaian jika diperlukan.",
+                "Efektivitas jadwal bisa dilihat dari bagaimana Anda menyelesaikan tugas. Jika ada masalah, lakukan penyesuaian kecil."
+            ]
+        },
+        {
+            "tag": "rencana harian",
+            "patterns": [
+                "Apa yang harus saya lakukan hari ini?",
+                "Bantu saya merencanakan hari ini",
+                "Apa yang harus saya prioritaskan?",
+                "Tolong buatkan daftar tugas harian",
+                "Saya butuh saran untuk aktivitas hari ini",
+                "Saran untuk hari ini?"
+            ],
+            "responses": [
+                "Mari kita mulai dengan tugas paling penting. Apa yang perlu diselesaikan hari ini?",
+                "Untuk memulai, sebutkan tiga hal terpenting yang harus kamu lakukan hari ini.",
+                "Kita bisa mulai dengan mengatur tugas yang mendesak dan penting. Apa yang perlu kamu selesaikan dulu?",
+                "Coba buat daftar tugas yang ingin kamu capai hari ini. Saya akan membantu mengatur prioritasnya.",
+                "Sebutkan aktivitas utama yang perlu kamu lakukan hari ini dan saya akan membantu menyusunnya."
+            ]
+        },
+        {
+            "tag": "rencana mingguan",
+            "patterns": [
+                "Buatkan rencana mingguan untuk saya",
+                "Saya butuh jadwal untuk minggu ini",
+                "Apa yang harus saya lakukan minggu ini?",
+                "Tolong bantu saya membuat rencana mingguan",
+                "Rencana minggu ini?"
+            ],
+            "responses": [
+                "Baik, mari kita buat rencana untuk minggu ini. Apa tujuan utama Anda?",
+                "Mulailah dengan tugas paling penting untuk minggu ini. Apa prioritas Anda?",
+                "Rencana mingguan akan membantu Anda tetap fokus. Apa saja tugas yang perlu diselesaikan?",
+                "Tentu saja! Mari kita atur jadwal mingguan Anda. Apa kegiatan utama Anda?"
+            ]
+        },
+        {
+            "tag": "rencana bulanan",
+            "patterns": [
+                "Buatkan rencana bulanan untuk saya",
+                "Saya butuh jadwal untuk bulan ini",
+                "Apa yang harus saya lakukan bulan ini?",
+                "Tolong bantu saya membuat rencana bulanan",
+                "Rencana bulan ini?"
+            ],
+            "responses": [
+                "Baik, mari kita buat rencana untuk bulan ini. Apa tujuan utama Anda?",
+                "Mulailah dengan tugas paling penting untuk bulan ini. Apa prioritas Anda?",
+                "Rencana bulanan akan membantu Anda tetap fokus. Apa saja tugas yang perlu diselesaikan?",
+                "Tentu saja! Mari kita atur jadwal bulanan Anda. Apa kegiatan utama Anda?"
+            ]
+        },
+        {
+            "tag": "tambah_jadwal",
+            "patterns": [
+                "Tambahkan acara baru",
+                "Jadwalkan sebuah acara",
+                "Saya ingin menambahkan jadwal baru",
+                "Buat acara baru",
+                "Bisakah Anda menambahkan acara ke jadwal saya?",
+                "Tambah acara ke jadwal",
+                "Jadwalkan acara baru untuk saya"
+            ],
+            "responses": [
+                "~addschedule"
+            ]
+        },
+        {
+            "tag": "lihat_jadwal",
+            "patterns": [
+                "Tampilkan jadwal saya",
+                "Apa jadwal saya hari ini?",
+                "Saya ingin melihat jadwal saya",
+                "Cek acara yang sudah dijadwalkan",
+                "Lihat jadwal saya",
+                "Perlihatkan jadwal saya",
+                "Tunjukkan jadwal saya hari ini"
+            ],
+            "responses": [
+                "~showschedule"
+            ]
+        },
+        {
+            "tag": "update_jadwal",
+            "patterns": [
+                "Perbarui jadwal saya",
+                "Ubah acara yang sudah ada",
+                "Saya ingin mengubah jadwal saya",
+                "Edit acara yang sudah ada",
+                "Update jadwal saya",
+                "Perbarui acara di jadwal",
+                "Ubah jadwal acara"
+            ],
+            "responses": [
+                "~updateschedule"
+            ]
+        },
+        {
+            "tag": "hapus_jadwal",
+            "patterns": [
+                "Hapus acara dari jadwal",
+                "Saya ingin menghapus jadwal acara",
+                "Buang acara yang tidak perlu",
+                "Saya ingin membatalkan acara",
+                "Hapus jadwal saya",
+                "Batalkan acara di jadwal",
+                "Hapus acara dari jadwal saya"
+            ],
+            "responses": [
+                "~deleteschedule"
+            ]
+        }
+    ]
+}

@@ -64,7 +64,7 @@ pip install tensorflow keras nltk pandas openpyxl tabulate PySastrawi
 
 ## License
 
-- This project is licensed under the MIT License. See the LICENSE file for more details.
+- This project is licensed under this [LICENSE](LICENSE).
 
 ## Program Description
 

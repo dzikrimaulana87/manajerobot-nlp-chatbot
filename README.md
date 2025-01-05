@@ -16,7 +16,7 @@ pip install tensorflow keras nltk pandas openpyxl tabulate PySastrawi
    - Pandas: For data manipulation and analysis.
    - Openpyxl: For interacting with Excel files (schedule management).
    - Tabulate: For creating formatted tables (schedule display).
-   - Sastrawi: Indonesian language processing library (if applicable).
+   - [Sastrawi](https://github.com/har07/PySastrawi): Indonesian language processing library.
 
 
 ## Usage
